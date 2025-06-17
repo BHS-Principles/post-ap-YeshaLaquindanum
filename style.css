@@ -1,4 +1,105 @@
-button{
-    background-color: blue;
-    color:white
+
+.card{
+    display:inline-block;
+    position:relative;
+    width:10rem;
+    height:15rem;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/55/Atlasnye_playing_cards_deck.svg);
+    background-size: 1400%;
+    background-position: -120rem 15rem;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    height: calc(80vh - 30px);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cardcontainer {
+    padding: 10px;
+    border-color: rgb(29, 29, 42); 
+    border-style: ridge;
+  }
+
+.backcard{
+    display: inline-block;
+    background-image: url(public/img/backofcard.png);
+    background-repeat: no-repeat;
+}
+
+.backcard.red {
+    width: 230px;
+    height: 350px;
+    background-position: -40px -30px;
+}
+
+.backcard.blue {
+    width: 230px;
+    height: 350px;
+    background-position: -290px -30px;
+}
+
+#heading{
+    background-color: rgb(48, 49, 71); 
+    text-align: center; 
+    align-items: center;  
+    display: flex; justify-content: center;
+}
+
+#imgdeck{
+    /* background-image: url(public/img/deckofcards.png); */
+    /* content: url(public/img/deckofcards.png); */
+    width: 200px; 
+    height:150px;
+
+}
+
+#buttonshuffle{
+    width: 200px; 
+    height: 50px;
+}
+
+#buttondeal{
+    width: 200px; 
+    height: 50px;
+}
+
+#players{
+    text-align: center; 
+    align-items: center;  
+    display: flex; 
+    justify-content: center; 
+    border-color: rgb(29, 29, 42); 
+    border-style: ridge;
+}
+
+.player{
+    border-color: rgb(29, 29, 42); 
+    border-style: ridge; 
+    margin: 20px; 
+    background-color: rgb(100, 126, 169)
+}
+
+.border{
+    border-color: rgb(29, 29, 42); 
+    border-style: ridge;
+}
+
+#playbuttons{
+    text-align: center; 
+    align-items: center;  
+    display: flex; 
+    justify-content: center; 
+    border-color: rgb(29, 29, 42); 
+    border-style: ridge;
+}
+
+.buttonplay{
+    margin: 20px; 
+    width: 200px; 
+    height: 50px;
 }

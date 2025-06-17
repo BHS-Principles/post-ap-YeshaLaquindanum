@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
-        <h1>This is cool</h1>
-        <link href="style.css" rel=""stylehseet/>
+    <head>
+        
+        <link href="style.css" rel="stylesheet"></link>
+        
+    </head>
 
-        <button id="mybutton"></button>
+    <body>
+
+        <div id="heading">
+
+            <div class="cards">
+                <img id="imgdeck" class="deck">
+            </div>
+
+            <div class="buttons">
+                <button id="buttonshuffle">Shuffle</button>
+                <button  id="buttondeal">Deal</button>
+            </div>
+
+
+        </div>
+
+        <div id="players">
+            
+            <div id="player1" class="player">
+                <h2>
+                    PLAYER 1
+                    <input type="text" id="name1" name="name" placeholder="Your name here">
+                </h2>
+            </div>
+
+            <div id="player2" class="player">
+                <h2>
+                    PLAYER 2
+                    <input type="text" id="name2" name="name" placeholder="Your name here">
+                </h2>
+            </div>
+
+        </div>
+
+        <div id="cards" class="center">
+            <div class="cardcontainer">
+                <div id="playercard1" class="backcard red"></div>
+            </div>
+            <div class="cardcontainer">
+                <div id="playercard2" class="backcard blue"></div>
+            </div>
+        </div>
+
+        <div id="playbuttons">
+            
+            <div class="border">
+                <button id="buttonplayer1" class="buttonplay">Play</button>
+            </div>
+
+            <div class="border">
+                <button id="buttonplayer2" class="buttonplay">Play</button>
+            </div>
+        </div>
+        
+        <div id="target"></div>
+
         <script src="js.js"></script>
+
     </body>
 </html>
